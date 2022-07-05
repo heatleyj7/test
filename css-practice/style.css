@@ -1,0 +1,59 @@
+body {
+    background-color: #666666cf;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;    
+    }
+
+    h1 {
+    text-align: center; 
+    }
+
+    #red {
+    color: red;
+    }
+
+    #blue {
+    color: blue;
+    }
+
+    #green {
+    color: green;
+    }
+
+    #big {
+    font-size: larger; 
+    }
+
+    #tiny {
+    font-size: xx-small;; 
+    }
+
+    #centered {
+    text-align: center; 
+    }
+
+    #bold {
+    font-weight: bold;
+    }
+    
+    #fontfamily {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #multiple {
+    font-weight: bold;
+    color: rgb(233, 105, 59);
+    font-size: larger;
+    }
+
+    .styledFont {
+        font-style: italic; 
+    }
+
+    #styledImage {
+        border: 5px; 
+        color: black;
+    }
+
+
+
