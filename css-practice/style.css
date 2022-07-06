@@ -1,5 +1,5 @@
 body {
-    background-color: #666666cf;
+    background-color: whitesmoke;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;    
     }
@@ -50,10 +50,11 @@ body {
         font-style: italic; 
     }
 
-    #styledImage {
-        border: 5px; 
-        color: black;
+    #imageOne {
+        border-style: solid;
     }
+
+
 
 
 

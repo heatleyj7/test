@@ -1,0 +1,36 @@
+
+      body {
+      background-color: #666666;
+      }
+       
+      .h1 {
+        color: #666666;
+        text-decoration: underline;
+      }
+      
+      img {
+        display: left; 
+        width: 900px;
+        }
+      h2, h3, p {
+        color: #010101;
+      }
+      p, li {
+        font-size: 24px;
+        font-family: cursive;
+      }
+      .almond {
+        color: #010101;
+      }
+  
+      .butterfinger {
+        color: #010101 ;
+      }
+  
+      .ferrero {
+        color: #010101 ;
+      }
+  
+      .all {
+        color: #010101 ;
+      }
