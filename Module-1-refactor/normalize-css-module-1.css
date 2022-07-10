@@ -1,25 +1,27 @@
-.flex-container {
-  display: flex;
-  background-color: DodgerBlue;
-}
-
-.flex-container > div {
-  background-color: #f1f1f1;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
-}
-
 body {
-  background-color: #d9dcd6;
+  background-color: #010101;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 p {
   text-align: center;
 }
 
-H2 {
+h1 {
   text-align: center; 
+  font-size: 45px; 
+  font-style: bold; 
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;  
+}
+
+h3 {
+  text-align: left;
+  font-size: 18px;  
 }
 
 img {
@@ -32,34 +34,24 @@ img {
   box-sizing: border-box;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 30px;
-}
-
 /* Style the header */
 .header {
-  background-color: #f1f1f1;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  margin: 50px;
+  background-color: #010101;
 }
 
-.welcome {
-  background-color: #f1f1f1;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  margin: 50px;
-}
-
-/* Container for flexboxes */
-.row {
+/* Containers for flexboxes */
+.columnWrap {
   display: -webkit-flex;
   display: flex;
   margin: 50px;
-  flex-flow: wrap;  
+  flex-flow: row wrap;
+}
+
+.rowWrap {
+  display: -webkit-flex; 
+  display: flex; 
+  margin: 50px; 
+  flex-flow: row wrap-reverse;
 }
 
 /* Create three unequal columns that sits next to each other */
@@ -85,17 +77,22 @@ body {
 
 /* Style the footer */
 .footer {
-  background-color: #f1f1f1;
-  padding: 10px;
-  text-align: center;
+  background-color: #010101;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 800px) {
-  .row {
+  .columnWrap {
     -webkit-flex-direction: column;
     flex-direction: column;
   }
+
+@media (max-width: 800px) {
+  .rowWrap {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
 }
 
 
